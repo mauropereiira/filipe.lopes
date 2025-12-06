@@ -1,4 +1,4 @@
-import { Experience, Education, Skill, Interest } from './types';
+import { Experience, Education, Skill } from './types';
 
 export const PROFILE = {
   name: "Filipe Lopes",
@@ -6,7 +6,8 @@ export const PROFILE = {
   email: "filipe.golden@hotmail.com",
   location: "Lisbon, Portugal",
   phone: "+351 912 685 560",
-  linkedin: "linkedin.com/in/filipeathayde",
+  linkedin: "www.linkedin.com/in/filipeathayde",
+  twitter: "x.com/Bassthay",
   // Placeholder used as per instructions, would be replaced by local asset in prod
   avatarUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop", 
   bio: "I'm a finance enthusiast in the web3 space with a passion for lifelong learning. From technical analysis to community management, I thrive in environments that challenge me to grow. I bring 5 years of experience building relationships, troubleshooting complex issues, and creating engagement strategies that matter."
@@ -65,9 +66,3 @@ export const SKILLS: Skill[] = [
   { name: "English (Professional)", category: "Soft" }
 ];
 
-export const INTERESTS: Interest[] = [
-  { name: "Cryptocurrency", prompt: "A futuristic 3D golden bitcoin coin floating in a dark data void, high quality, octane render, cinematic lighting" },
-  { name: "Anime", prompt: "A stylized 3D anime character mask or katana, glowing neon aesthetics, dark background, cyberpunk style" },
-  { name: "Music", prompt: "A 3D abstract visualization of sound waves and a vinyl record, gold and black, elegant, minimalist" },
-  { name: "Finance", prompt: "3D abstract financial chart bars rising, gold material, dark glass background, sophisticated" }
-];

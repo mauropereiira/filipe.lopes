@@ -18,8 +18,3 @@ export interface Skill {
   name: string;
   category: 'Tech' | 'Soft' | 'Industry';
 }
-
-export interface Interest {
-  name: string;
-  prompt: string;
-}

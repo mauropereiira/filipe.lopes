@@ -1,11 +1,12 @@
 import React, { useState, useRef } from 'react';
 import { motion, useScroll, useSpring, useMotionValue, useTransform } from 'framer-motion';
-import { 
-  Briefcase, 
-  GraduationCap, 
-  Mail, 
-  MapPin, 
-  Linkedin, 
+import {
+  Briefcase,
+  GraduationCap,
+  Mail,
+  MapPin,
+  Linkedin,
+  Twitter,
   ArrowRight,
   ChevronDown,
   Sparkles,
@@ -215,6 +216,9 @@ export default function App() {
               <div className="flex gap-4 items-center px-4">
                 <a href={`https://${PROFILE.linkedin}`} target="_blank" rel="noreferrer" className="p-3 bg-surfaceHighlight rounded-lg hover:text-accent hover:bg-zinc-800 transition-all">
                   <Linkedin className="w-5 h-5" />
+                </a>
+                <a href={`https://${PROFILE.twitter}`} target="_blank" rel="noreferrer" className="p-3 bg-surfaceHighlight rounded-lg hover:text-accent hover:bg-zinc-800 transition-all">
+                  <Twitter className="w-5 h-5" />
                 </a>
                 <a href={`mailto:${PROFILE.email}`} className="p-3 bg-surfaceHighlight rounded-lg hover:text-accent hover:bg-zinc-800 transition-all">
                   <Mail className="w-5 h-5" />
@@ -447,9 +451,8 @@ export default function App() {
           <div className="mt-20 pt-10 border-t border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-zinc-600">
             <p>&copy; {new Date().getFullYear()} Filipe Lopes. All rights reserved.</p>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-accent transition-colors">Privacy</a>
-              <a href="#" className="hover:text-accent transition-colors">Twitter</a>
-              <a href="#" className="hover:text-accent transition-colors">LinkedIn</a>
+              <a href={`https://${PROFILE.twitter}`} target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">Twitter</a>
+              <a href={`https://${PROFILE.linkedin}`} target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">LinkedIn</a>
             </div>
           </div>
         </div>
