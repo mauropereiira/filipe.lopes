@@ -8,8 +8,7 @@ export const PROFILE = {
   phone: "+351 912 685 560",
   linkedin: "www.linkedin.com/in/filipeathayde",
   twitter: "x.com/Bassthay",
-  // Placeholder used as per instructions, would be replaced by local asset in prod
-  avatarUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop", 
+  avatarUrl: "/profile.jpeg", 
   bio: "I'm a finance enthusiast in the web3 space with a passion for lifelong learning. From technical analysis to community management, I thrive in environments that challenge me to grow. I bring 5 years of experience building relationships, troubleshooting complex issues, and creating engagement strategies that matter."
 };
 
